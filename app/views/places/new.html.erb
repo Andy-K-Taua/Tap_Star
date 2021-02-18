@@ -1,0 +1,18 @@
+<!-- Places -->
+
+<h2>Create Beach</h2>
+
+<%= form_with model: @place, local: true do |f| %>
+
+  <%= f.label :setting %><br>
+  <%= f.text_field :setting %><br><br>
+
+  <%= f.label :state %><br>
+  <%= f.text_field :state %><br><br>
+
+  <%= f.label :address %><br>
+  <%= f.text_field :address %><br><br>
+
+  <%= f.submit %>
+
+<% end %>

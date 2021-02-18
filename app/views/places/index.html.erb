@@ -1,0 +1,15 @@
+<!-- Places -->
+
+<h2>Beach Region</h2>
+
+<%= link_to 'Add a beach', new_place_path %>
+
+
+<ul>
+  <% @places.each do |place| %>
+  <li>
+   <%= link_to place.address, place_path(place.id) %>
+  <%= link_to ' ... Delete', place_path(place.id), method: 'delete' %>
+  </li>
+  <% end %>
+</ul>

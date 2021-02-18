@@ -1,0 +1,17 @@
+/* // Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/ */
+
+
+body {
+
+  color: #90b2e8;
+  background-color: #4b5463;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+}
+
+a {
+  color: #90b2e8;
+}

@@ -1,0 +1,13 @@
+<!-- Places -->
+
+<h2>Beaches</h2>
+
+<%= link_to 'Add Photo', new_photo_path(place_id: @place.id) %>
+<%= link_to 'Edit Place', edit_place_path(@place.id) %>
+
+
+
+<% @place.photos.each do |photo| %>
+<%= link_to 'Delete', photo_path(photo.id), method: 'delete' %>
+<%= image_tag photo.image %>
+<% end %>
