@@ -4,7 +4,6 @@ Tap-Star
 This project was my second project at GA. I will continuously be revisiting this website to update new features.
 
 Link
-https://github.com/Andy-K-Taua/andyktaua
 
 
 
