@@ -52,4 +52,4 @@ I would like to add a feature to the places model with Geocode that will allow t
 I would also like to add Cloudinary to the uploading of images so that the user can upload their pictures live.  
 
 I would also like to make this app mobile responsive.
-# Tap_Star
+
